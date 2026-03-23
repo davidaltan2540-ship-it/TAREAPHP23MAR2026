@@ -46,6 +46,15 @@ $pos = strpos($texto, "PHP");   // Primera ocurrencia → posición 0
 echo "6. strpos: posición $pos \n";
 
 
+//7. FUNCIÓN PARA ELIMINAR ESPACIONES AL INICIO Y AL FINAL 
+// Esta función elimina los espacios en blanco al inicio y al final de una cadena
+//ahora ltrim() elimina los espacios al inicio y rtrim() elimina los espacios a la derecha
+
+$sucio = "   Hola Mundo   ";
+$limpio = trim($sucio);
+echo "7. trim: '$limpio' \n"; // 'Hola Mundo'
+
+
 
 
 ?>
