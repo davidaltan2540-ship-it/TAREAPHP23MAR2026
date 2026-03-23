@@ -22,6 +22,13 @@ $texto = "PHP ES GENIAL";
 $minus = strtolower($texto);
 echo "3. strtolower: $minus \n"; // php es genial
 
+//4. FUNCIÓN BUSCAR Y REEMPLAZAR TEXTOS
+// Busca un texto dentro de una cadena y lo reemplaza por otro.
+// Parámetros: (buscar, reemplazar_con, cadena_original)
+$frase = "Me gusta el café con leche";
+$nueva = str_replace("café", "té", $frase);
+echo "4. str_replace: $nueva \n"; // Me gusta el té con leche
+//como podemos observar en la línea del código anteriro se mostrará la otra palabra al usuario.
 
 
 
