@@ -149,6 +149,16 @@ echo "20. number_format: Q" . number_format($precio, 2, '.', ',') . " \n";
 
 $frutas = ["manzana", "pera", "uva", "mango"];
 echo "21. count: " . count($frutas) . " \n"; // 4
+
+
+//22. Función agregar al final
+//agrega uno o más elementos al final de un array
+
+array_push($frutas, "sandía", "melón");
+echo "22. array_push: ";
+print_r($frutas);
+
+
  
 
 
