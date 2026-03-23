@@ -184,6 +184,13 @@ print_r($nums);
 $existe = in_array("pera", $frutas);
 echo "25. in_array 'pera': " . ($existe ? "SÍ existe" : "NO existe") . " \n";
 
+//26. Funcion busqueda del indice de un valor
+// en esta clase de función se busca un valor y retorna su posición (indice) en el array, si no encuentra el valor retorna FALSE 
+$idx = array_search("mango", $frutas);
+echo "26. array_search 'mango': índice $idx \n";
+
+
+ 
 
 
 ?>
