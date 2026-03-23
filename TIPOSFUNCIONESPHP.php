@@ -117,6 +117,12 @@ echo "15. floor(4.9): " . floor(4.9) . " \n"; // 4
 
 echo "16. pow(2, 10): " . pow(2, 10) . " \n"; // 1024
 
+//17. Función raíz cuadrada
+// esta función devuelve la raíz cuadrada de un número
+
+echo "17. sqrt(144): " . sqrt(144) . " \n"; // 12
+
+
 
 
 
