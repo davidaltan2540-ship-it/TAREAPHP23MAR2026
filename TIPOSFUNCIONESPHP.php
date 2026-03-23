@@ -144,8 +144,13 @@ $precio = 15750.5;
 echo "20. number_format: Q" . number_format($precio, 2, '.', ',') . " \n";
 // Resultado: Q15,750.50
 
+//21. FUNCIÓN CONTAR ELEMENTOS
+// esta función cuenta el número de elementos que hay en un array 
 
+$frutas = ["manzana", "pera", "uva", "mango"];
+echo "21. count: " . count($frutas) . " \n"; // 4
  
+
 
 
 ?>
