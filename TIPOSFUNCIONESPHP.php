@@ -199,8 +199,17 @@ $c = array_merge($a, $b);
 echo "27. array_merge: ";
 print_r($c); // [1, 2, 3, 4, 5, 6]
 
+//28. funcion para eliminar duplicados de un array
+// esta función elimina los valores duplicados existentes dentro de un array
+
+$conDups = [10, 20, 20, 30, 10, 40, 30];
+$sinDups = array_unique($conDups);
+echo "28. array_unique: ";
+print_r($sinDups);
 
 
+
+ 
  
 
 ?>
