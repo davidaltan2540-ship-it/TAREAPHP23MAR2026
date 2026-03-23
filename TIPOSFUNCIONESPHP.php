@@ -16,6 +16,12 @@ $mayus = strtoupper($texto);
 echo "2. strtoupper: $mayus \n"; // EL RESULTAEDO SE OBSERVARÁ ASI: PHP ES GENIAL
 
 
+//3. FUNCIÓN CONVERTIR A MINUSCULAS
+// Convierte todos los caracteres de una cadena a minúsculas.
+$texto = "PHP ES GENIAL";
+$minus = strtolower($texto);
+echo "3. strtolower: $minus \n"; // php es genial
+
 
 
 
