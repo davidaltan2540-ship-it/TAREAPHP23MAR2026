@@ -67,6 +67,15 @@ echo "8. str_repeat: $linea \n"; // ==============================
 $nombre = "josué culajay";
 echo "9. ucfirst: " . ucfirst($nombre) . " \n"; // Josué culajay
 
+//10. Dividir cadena en array
+// esta función divdide una cadena en partes utilizando un delimitador y devuelve un array con las partes resultantes.
+
+$csv    = "nombre,edad,ciudad";
+$campos = explode(",", $csv);
+// Resultado: ["nombre", "edad", "ciudad."]
+echo "10. explode: ";
+print_r($campos);
+
 
 
 ?>
