@@ -30,6 +30,14 @@ $nueva = str_replace("café", "té", $frase);
 echo "4. str_replace: $nueva \n"; // Me gusta el té con leche
 //como podemos observar en la línea del código anteriro se mostrará la otra palabra al usuario.
 
+//5. FUNCIÓN para extraer parte de una cadena
+// Extrae un fragmento de una cadena desde una posición dada.
+// Parámetros: (cadena, posicion_inicio, longitud)
+// Las posiciones empiezan en 0.
+$texto = "Guatemala 2026";
+$pais  = substr($texto, 0, 9);   // Desde posición 0, toma 9 caracteres
+$anio  = substr($texto, 10, 4);  // Desde posición 10, toma 4 caracteres
+echo "5. substr — País: $pais | Año: $anio \n";
 
 
 ?>
