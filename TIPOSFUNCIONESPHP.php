@@ -179,6 +179,11 @@ echo "24. rsort (descendente): ";
 print_r($nums);
 
 
+//25. Función verificar si un valor existe en un array
+// en esta función virifica si existe un valor especifico dentro de un array asimismo retorna TRUE o FALSE, no retorna el índice como tal
+$existe = in_array("pera", $frutas);
+echo "25. in_array 'pera': " . ($existe ? "SÍ existe" : "NO existe") . " \n";
+
 
 
 ?>
