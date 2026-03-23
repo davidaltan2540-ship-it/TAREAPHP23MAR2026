@@ -76,9 +76,11 @@ echo "9. ucfirst: " . ucfirst($nombre) . " \n"; // Josué culajay
 
 $csv    = "nombre,edad,ciudad";
 $campos = explode(",", $csv);
-// Resultado: ["nombre", "edad", "ciudad"]
+// Resultado: ["nombre", "edad", "ciudad."]
 echo "10. explode: ";
 print_r($campos);
+
+
 
 
 ?>
