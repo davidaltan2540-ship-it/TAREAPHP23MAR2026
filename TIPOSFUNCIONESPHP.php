@@ -84,6 +84,11 @@ $palabras = ["PHP", "es", "genial"];
 $frase    = implode(" ", $palabras);
 echo "11. implode: $frase \n"; // PHP es genial
 
+//12. funcion Valor Absoluto
+//esta función retorna o devuelve el valor positivo de un número (eliminando el signo negativo de referido número)
+$num = -42;
+echo "12. abs: " . abs($num) . " \n"; // 42
+
 
 
 
