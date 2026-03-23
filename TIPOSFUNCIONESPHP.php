@@ -235,4 +235,8 @@ $diferencia  = $fechaFin - $fechaInicio;
 $dias        = floor($diferencia / 86400); // 86400 = segundos en un día
 echo "30. Días entre 01/01/2026 y 31/12/2026: $dias días \n";
 
+
+
+
+
 ?>
