@@ -157,9 +157,14 @@ echo "21. count: " . count($frutas) . " \n"; // 4
 array_push($frutas, "sandía", "melón");
 echo "22. array_push: ";
 print_r($frutas);
-
-
  
+
+//23. Función eliminar el ultimo elemento 
+//esta función elimina el ultimo elemento de un array y lo devuelve  
+$eliminado = array_pop($frutas);
+echo "23. array_pop (eliminado): $eliminado \n"; // melón
+
+
 
 
 
