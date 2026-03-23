@@ -61,6 +61,12 @@ $linea = str_repeat("=", 30);
 echo "8. str_repeat: $linea \n"; // ==============================
 
 
+//9. FUNCIÓN PRIMERA LETRA EN MÁYUSCULA
+// Convierte la primera letra de una cadena en mayuscula
+
+$nombre = "josué culajay";
+echo "9. ucfirst: " . ucfirst($nombre) . " \n"; // Josué culajay
+
 
 
 ?>
