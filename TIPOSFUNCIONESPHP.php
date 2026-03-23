@@ -90,6 +90,13 @@ $num = -42;
 echo "12. abs: " . abs($num) . " \n"; // 42
 
 
+//13. FUNCION PARA REDONDEAR NÚMEROS
+// esta función el segundo parametro define cuantos decimales conservar: si se omite redonde el entero más cercano
+
+ 
+$dec = 4.5678;
+echo "13. round (2 decimales): " . round($dec, 2) . " \n"; // 4.57
+echo "13. round (entero):      " . round($dec)     . " \n"; // 5
 
 
 ?>
