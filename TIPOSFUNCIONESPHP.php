@@ -55,6 +55,12 @@ $limpio = trim($sucio);
 echo "7. trim: '$limpio' \n"; // 'Hola Mundo'
 
 
+//8. FUNCIÓN REPETIR UNA CADENA
+//ESTA FUNCIÓN REPETIE UNA CADENA N VECES CONSECUTIVAS
+$linea = str_repeat("=", 30);
+echo "8. str_repeat: $linea \n"; // ==============================
+
+
 
 
 ?>
