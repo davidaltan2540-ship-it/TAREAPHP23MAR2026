@@ -39,5 +39,13 @@ $pais  = substr($texto, 0, 9);   // Desde posición 0, toma 9 caracteres
 $anio  = substr($texto, 10, 4);  // Desde posición 10, toma 4 caracteres
 echo "5. substr — País: $pais | Año: $anio \n";
 
+//6. FUNCIÓN PARA BUSCAR POSICIÓN DE UN TEXTO
+// Devuelve la posición donde aparece por primera vez un texto asimismo retorna False si no lo encuentra.
+$texto = "PHP es genial y PHP es rápido";
+$pos = strpos($texto, "PHP");   // Primera ocurrencia → posición 0
+echo "6. strpos: posición $pos \n";
+
+
+
 
 ?>
