@@ -112,6 +112,11 @@ echo "15. floor(4.9): " . floor(4.9) . " \n"; // 4
 
 
 
+//16. Función potencia
+// esta función eleva un número a la potencia de otro número
+
+echo "16. pow(2, 10): " . pow(2, 10) . " \n"; // 1024
+
 
 
 
