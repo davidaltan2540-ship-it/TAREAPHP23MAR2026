@@ -137,7 +137,15 @@ $notas = [85, 92, 73, 67, 95, 88];
 echo "19. max: " . max($notas) . " \n"; // 95
 echo "19. min: " . min($notas) . " \n"; // 67
 
+//20. Función para formatear un número
+// formatea un número con separadores de miles y decimales
+// Parámetros: (número, decimales, sep_decimal, sep_miles)
+$precio = 15750.5;
+echo "20. number_format: Q" . number_format($precio, 2, '.', ',') . " \n";
+// Resultado: Q15,750.50
 
+
+ 
 
 
 ?>
