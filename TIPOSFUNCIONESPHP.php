@@ -122,6 +122,12 @@ echo "16. pow(2, 10): " . pow(2, 10) . " \n"; // 1024
 
 echo "17. sqrt(144): " . sqrt(144) . " \n"; // 12
 
+//18. Función número aleatorio
+// Genera un número entero aleatorio asignandole el valor mínimo y el valor máximo
+
+$aleatorio = rand(1, 100);
+echo "18. rand(1, 100): $aleatorio \n"; // Número entre 1 y 100
+
 
 
 
