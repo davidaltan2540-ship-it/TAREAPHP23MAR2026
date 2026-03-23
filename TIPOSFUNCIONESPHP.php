@@ -190,7 +190,17 @@ $idx = array_search("mango", $frutas);
 echo "26. array_search 'mango': índice $idx \n";
 
 
- 
+ //27 FUNCIÓN PARA UNIR DOS ARRAYS
+ //esta función combina los elementos de dos arrays en uno solo, manteniendo el orden de los elementos 
 
+$a = [1, 2, 3];
+$b = [4, 5, 6];
+$c = array_merge($a, $b);
+echo "27. array_merge: ";
+print_r($c); // [1, 2, 3, 4, 5, 6]
+
+
+
+ 
 
 ?>
