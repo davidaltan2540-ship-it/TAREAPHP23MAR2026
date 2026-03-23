@@ -222,6 +222,17 @@ $horaAhora = date("H:i:s");        // Ej: 14:35:09
 $completo  = date("d/m/Y H:i:s");  // Ej: 23/03/2026 14:35:09
 echo "29. date — Fecha: $fechaHoy | Hora: $horaAhora \n";
 echo "29. date — Completo: $completo \n";
+
+//30. función para obtener timestamp Unix
+//esta función devuelve el número de segundos transcurridos desde el 1 de enero de 1970 a las 00:00:00 UTC hasta la fecha y hora actual
+$timestamp = time();
+echo "30. time: $timestamp \n";
  
+ //// Calcular cuántos días hay entre dos fechas:
+$fechaInicio = strtotime("2026-01-01"); // Convierte fecha a timestamp
+$fechaFin    = strtotime("2026-12-31");
+$diferencia  = $fechaFin - $fechaInicio;
+$dias        = floor($diferencia / 86400); // 86400 = segundos en un día
+echo "30. Días entre 01/01/2026 y 31/12/2026: $dias días \n";
 
 ?>
