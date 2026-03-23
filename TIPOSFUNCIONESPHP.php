@@ -77,5 +77,14 @@ echo "10. explode: ";
 print_r($campos);
 
 
+//11. FUNCION UNIR ARRA EN CADENA
+// esta funcion une los elementos de un array en una cadena utilizando un dellimitador
+
+$palabras = ["PHP", "es", "genial"];
+$frase    = implode(" ", $palabras);
+echo "11. implode: $frase \n"; // PHP es genial
+
+
+
 
 ?>
