@@ -99,4 +99,15 @@ echo "13. round (2 decimales): " . round($dec, 2) . " \n"; // 4.57
 echo "13. round (entero):      " . round($dec)     . " \n"; // 5
 
 
+
+ //14. Función redondear hacia arrriba
+// esta clase de función siempre sube al entero más cercano, sin importar los decimales
+echo "14. ceil(4.1): " . ceil(4.1) . " \n"; // 5
+echo "14. ceil(4.9): " . ceil(4.9) . " \n"; // 5
+
+
+
+
+
+
 ?>
