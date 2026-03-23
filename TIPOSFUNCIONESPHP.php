@@ -129,6 +129,14 @@ $aleatorio = rand(1, 100);
 echo "18. rand(1, 100): $aleatorio \n"; // Número entre 1 y 100
 
 
+//19. funcione con valor max() y min() de un array
+// max() retorna el valor más alto de una lista o array.
+// min() retorna el valor más bajo de una lista o array.
+
+$notas = [85, 92, 73, 67, 95, 88];
+echo "19. max: " . max($notas) . " \n"; // 95
+echo "19. min: " . min($notas) . " \n"; // 67
+
 
 
 
