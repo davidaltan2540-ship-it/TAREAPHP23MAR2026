@@ -164,6 +164,19 @@ print_r($frutas);
 $eliminado = array_pop($frutas);
 echo "23. array_pop (eliminado): $eliminado \n"; // melón
 
+//24. Función ordenar array 
+// sort()  -> ordena de menor a mayor (A-Z / 1-9)
+// rsort() -> ordena de mayor a menor (Z-A / 9-1)
+// esta función lo que hace es ordenar arrays de forma ascendente o descendente dependiendo de la funcion que se utilice 
+
+$nums = [5, 2, 8, 1, 9, 3];
+sort($nums);
+echo "24. sort (ascendente):  ";
+print_r($nums);
+ 
+rsort($nums);
+echo "24. rsort (descendente): ";
+print_r($nums);
 
 
 
