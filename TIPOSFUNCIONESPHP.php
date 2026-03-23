@@ -105,6 +105,11 @@ echo "13. round (entero):      " . round($dec)     . " \n"; // 5
 echo "14. ceil(4.1): " . ceil(4.1) . " \n"; // 5
 echo "14. ceil(4.9): " . ceil(4.9) . " \n"; // 5
 
+//15. Función  redondear hacia abajo
+// esta función siembre baja al entero más cercano, descartando los decimales
+echo "15. floor(4.1): " . floor(4.1) . " \n"; // 4
+echo "15. floor(4.9): " . floor(4.9) . " \n"; // 4
+
 
 
 
