@@ -209,7 +209,19 @@ print_r($sinDups);
 
 
 
- 
+// ahora veremos funciones de fecha y hora en PHP
+
+// 29. Formatear fecha actual
+// esta función devuelve la fecha y hora actual formateada segun el formato especifico  
+
+//   d = día (01-31)       m = mes (01-12)      Y = año (4 dígitos)
+//   H = hora (00-23)      i = minutos (00-59)  s = segundos (00-59)
+
+ $fechaHoy  = date("d/m/Y");        // Ej: 23/03/2026
+$horaAhora = date("H:i:s");        // Ej: 14:35:09
+$completo  = date("d/m/Y H:i:s");  // Ej: 23/03/2026 14:35:09
+echo "29. date — Fecha: $fechaHoy | Hora: $horaAhora \n";
+echo "29. date — Completo: $completo \n";
  
 
 ?>
